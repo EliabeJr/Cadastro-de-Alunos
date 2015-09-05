@@ -17,8 +17,6 @@
 	<div class="container">
 	<?php
 
-	//PREENCHA OS DADOS DE CONEXÃO A SEGUIR:
-	 
 	$host= 'localhost';
 	$bd= 'alunos';
 	$userbd = 'root'; 
