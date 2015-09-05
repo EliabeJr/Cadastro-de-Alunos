@@ -1,0 +1,133 @@
+body {
+	width: 696px;
+	margin: 0 auto;
+	font-family: Roboto;
+}
+
+header {
+	padding-top: 21px;
+	padding-bottom: 57px;
+}
+
+header h1 {
+	font-size: 26px;
+	margin-top: -35px; 
+	padding-left: 81px;
+	display: block;
+	font-weight: 500;
+}
+
+header img {
+	display: inline-block;
+}
+
+.container {
+	width: 603px;
+	margin: 0 auto;
+}
+
+#linha {
+	display: block;
+	margin-bottom: 9px;
+	}
+
+.field1 {
+	border: 2px #000 solid;
+	width: 170px;
+	height: 27px;
+	font-size: 14px;
+}
+
+.field2 {
+	border: 2px #000 solid;
+	width: 113px;
+	margin-left: 7px;
+	height: 27px;
+	font-size: 13px;
+
+}
+
+.rem {
+	width: 40px;
+	height: 27px;
+	text-align: center;
+	background-color: #e6e6e6;
+	border: 2px #000 solid;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font-weight: bold; 
+}
+
+.plus {
+	width: 40px;
+	height: 27px;
+	text-align: center;
+	background-color: #e6e6e6;
+	border: 2px #000 solid;
+	border-radius: 5px;
+	font-weight: bold; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.save {
+	width: 110px;
+	height: 24px;
+	margin-top: 30px;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	background-color: #e6e6e6;
+	border: 2px #000 solid;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+}
+
+footer {
+	margin-top: 35px;
+}
+
+footer span {
+	font-size: 15px;
+	padding-top: 10px;
+	display: block;
+}
+
+hr {
+	border: 1px #000 solid;
+}
+
+table {
+	width: 603px;
+	font-size: 14px;
+	border-collapse: collapse; 
+}
+
+td {
+	border: 1px #000 solid;
+	padding: 5;
+	margin: 0;
+	overflow: hidden;
+	width: 105.75px;
+	height: 30px;
+}
+
+td.nome {
+	width: 180px;
+}
+
+tr.r2 {
+	background: #ececec;
+}
+
+.titulo {
+	background: #ccc;
+	padding-left: 16px;
+	height: 29px;
+}
+
+#medias {
+	margin-top: 38px;
+}

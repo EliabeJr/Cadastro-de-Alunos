@@ -1,0 +1,71 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="functions.js"></script>
+	<title>Tela 1</title>
+</head>
+<body>
+
+<header class="container">
+
+	<img src="img/logo.jpg" alt="logo" title="logo">
+
+	<h1>SISTEMA DE MÉDIAS</h1>
+
+</header>
+
+<div class="container">
+
+	<form name="formulario" method="post" action="cadastro.php">
+
+		<div id="alunos">
+			<div id="linha"> <!-- PRIMEIRO ALUNO -->
+				<input class="field1" placeholder="NOME DO ALUNO" name="nome[]" size="14">
+				<input class="field2" placeholder="NOTA 1" name="nota1[]">
+				<input class="field2" placeholder="NOTA 2" name="nota2[]">
+				<input class="field2" placeholder="NOTA 3" name="nota3[]">
+				<input type="button" value="X" class="rem" onclick="removerCampos(this);">
+			</div> <!-- PRIMEIRO ALUNO -->
+
+			<div id="linha"> <!-- SEGUNDO ALUNO -->
+				<input class="field1" placeholder="NOME DO ALUNO" name="nome[]">
+				<input class="field2" placeholder="NOTA 1" name="nota1[]">
+				<input class="field2" placeholder="NOTA 2" name="nota2[]">
+				<input class="field2" placeholder="NOTA 3" name="nota3[]">
+				<input type="button" value="X" class="rem" onclick="removerCampos(this);">
+			</div> <!-- SEGUNDO ALUNO -->
+
+			<div id="linha"> <!-- TERCEIRO ALUNO -->
+				<input class="field1" placeholder="NOME DO ALUNO" name="nome[]">
+				<input class="field2" placeholder="NOTA 1" name="nota1[]">
+				<input class="field2" placeholder="NOTA 2" name="nota2[]">
+				<input class="field2" placeholder="NOTA 3" name="nota3[]">
+				<input type="button" value="X" class="rem" onclick="removerCampos(this);">
+			</div> <!-- TERCEIRO ALUNO -->
+
+			<div id="received"> <!-- RECEBE CAMPOS ADICIONADOS -->
+			</div>
+			
+			<div id="linha"> <!-- QUARTO ALUNO -->
+				<input class="field1" placeholder="NOME DO ALUNO" name="nome[]">
+				<input class="field2" placeholder="NOTA 1" name="nota1[]">
+				<input class="field2" placeholder="NOTA 2" name="nota2[]">
+				<input class="field2" placeholder="NOTA 3" name="nota3[]">
+				<input type="button" value="+" class="plus" onclick="addCampos();">
+			</div> <!-- QUARTO ALUNO -->
+		</div>
+
+			<input type="submit" value="Salvar" class="save"> <!-- ENVIA -->
+	</form>
+
+	<footer>
+		<div class="container"> <!-- RODAPÉ -->
+			<hr>
+			<span>Sistema desenvolvido por RecSystems</span>
+		</div>
+	</footer>
+
+</div>
+
+</body>
+</html>
